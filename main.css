@@ -1,0 +1,407 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header {
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    background: #1b1919;
+    min-width: 320px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(179, 189, 48);
+}
+
+.header a:hover {
+    color: rgb(11, 196, 57);
+}
+
+.menu {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.header li {
+    display: inline-block;
+}
+
+
+
+.lead {
+    width: 100%;
+    height: 720px;
+    background: url(img/lead.jpeg) no-repeat center top / cover;
+}
+
+.lead-container {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: wheat;
+
+}
+.lead-container h2{
+    margin-top: 12px;
+}
+
+.lead-zad {
+    position: absolute;
+    min-height: 720px;
+    width: 100%;
+    background: rgba(41, 32, 13, 0.8);
+    z-index: 1;
+}
+
+
+.cnt {
+    padding: 15px;
+    padding-top: 25px;
+}
+
+
+
+/* about */
+.about {}
+
+.about_content {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.about_img {
+    margin: auto;
+}
+
+.about_img img {
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about_img h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_text {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+/* experience  */
+.experience {
+    background: #babac7;
+}
+
+.experience_content {
+    padding: 40px 0;
+}
+
+.experience_title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.experience_card {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.experience_card h3:nth-child(1) {
+    width: 700px;
+}
+
+.experience_text {
+    background: white;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    border-radius: 3px;
+}
+.experience_text:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.experience_text h3 {
+    margin-bottom: 20px;
+}
+
+.experience p {
+    text-align: justify;
+}
+
+/* education */
+.education {}
+
+.education_content {
+    padding: 40px 0;
+}
+
+.education_card {
+    width: 70%;
+    border: 2px solid #dcd9d9;
+    padding: 20px;
+    margin: 50px auto;
+}
+.education_card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.education_card-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.education_card h3 {
+    margin-bottom: 30px;
+}
+
+.education_card p {
+    text-align: justify;
+}
+
+/* projects */
+.projects {
+    background: #babac7;
+
+}
+
+.projects_content {
+    padding: 40px 0;
+}
+
+.projects_card {
+    min-height: 350px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+.projects_card img {
+    width: 350px;
+}
+
+.projects_card-text {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.projects_card-text h2 {
+    margin-bottom: 30px;
+}
+
+.projects_card-text p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.projects_card-text a {
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.projects_card-text a:hover {
+    background: #4848c0;
+    color: whitesmoke;
+    border: solid black;
+}
+
+/* skills */
+.skills {}
+
+.skills_content {
+    padding: 50px 0;
+}
+
+.skills_card {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+
+/* contact */
+.contact {
+    background: #366819;
+}
+
+.contact_content {
+    padding: 40px 0;
+}
+
+.contact_content h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact_input {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+
+.contact_input input {
+    background: #1d6fa5;
+    border: 0;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.contact_input input::-webkit-input-placeholder,
+.contact_input textarea::-webkit-input-placeholder {
+    color: white;
+}
+
+.contact_input textarea {
+    padding: 15px 10px;
+    background: #1d6fa5;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact_input button {
+    background: #fff;
+    border-radius: 4px;
+    padding: 7px 10px;
+    border: none;
+    color: #3498db;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: .5s ease all;
+    cursor: pointer;
+}
+
+/* footer */
+.footer {}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer_link {
+    display: flex;
+    gap: 20px;
+}
+
+.footer_link a {
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.footer_link img {
+    width: 50px;
+}
+
+@media(max-width: 768px) {
+    .projects_card {
+        flex-direction: column;
+    }
+
+    .contact_input {
+        width: 380px;
+    }
+
+    .experience_card {
+        flex-direction: column;
+    }
+
+    .experience_card h3:nth-child(1) {
+        width: 100%;
+    }
+
+    .footer_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .projects_card-text {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width: 425px) {
+    .contact_input {
+        width: 270px;
+    }
+}
